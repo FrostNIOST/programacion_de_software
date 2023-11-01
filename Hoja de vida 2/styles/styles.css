@@ -17,13 +17,17 @@ body {
         color: white;
 
     }
-
+    img {
+        position: relative;
+        top: 3%;
+        margin-left: 13%;
+    }
 #container {
     width: 40%;
     margin: 0 auto;
     height: 100vh;
-    background: rgb(172,199,208);
-    background: linear-gradient(18deg, rgba(172,199,208,1) 3%, rgba(64,119,132,1) 65%); 
+    background: rgb(65,118,132);
+    background: linear-gradient(232deg, rgba(65,118,132,1) 0%, rgba(172,199,209,1) 100%);
     box-shadow: 6px 5px 0px 9px rgba(0,0,0,0.46);
     -webkit-box-shadow: 6px 5px 0px 9px rgba(0,0,0,0.46);
     -moz-box-shadow: 6px 5px 0px 9px rgba(0,0,0,0.46);
